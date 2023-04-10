@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import Cart from './components/Cart'
+import Home from './pages/Home'
+import Cart from './pages/Cart'
 import Navbar from './components/Navbar'
 
 function App() {

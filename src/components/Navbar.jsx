@@ -8,11 +8,12 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <span>Redux Store</span>
+        <h1>Redux Store</h1>
         <div className='nav-container'>
           <Link to='/'>Home</Link>
           <Link to='/cart'>Cart</Link>
-          <p>Item Count: {items.length}</p>
+          <Link to='/cart'><span><i className="fa-solid fa-cart-shopping"/> {items.length}</span></Link>
+
         </div>
     </div>
   )
